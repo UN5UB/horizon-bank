@@ -50,6 +50,7 @@ declare type NewUserParams = {
 };
 
 declare type Account = {
+  sharaebleId: string;
   id: string;
   availableBalance: number;
   currentBalance: number;
